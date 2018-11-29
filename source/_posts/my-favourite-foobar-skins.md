@@ -2,7 +2,7 @@
 title: 那些精美的 foobar2000 皮肤
 date: 2016-10-31 03:15
 tags: [foobar2000]
-categories: [foobar2000]
+categories: [foobar2000]	
 ---
 
 [Foobar2000](http://foobar2000.org) 是国内广为人知的本地音乐播放软件，由于其简洁的设计与强大的功能而深受喜爱。同时，foobar2000 在借助插件的情况下，可以实现更多更丰富的功能，其中就包括皮肤的定制。
@@ -29,9 +29,9 @@ Foobox 系列是 [dreamawake](http://dreamawake.blog.163.com/) 在 dreamix 皮�
 
 Foobox 4.x 功能尚且较简单，主要界面只有播放列表。而 5.x 则增加了封面墙、网络搜索、下载等功能。也因此 5.x 的占用比较大……
 
-[foobox 5.x](http://tieba.baidu.com/p/4365747104)![foobox5](https://elia-is-me.github.io/images/foobox5.jpg)
+[foobox 5.x](http://tieba.baidu.com/p/4365747104)![foobox5](https://ws1.sinaimg.cn/large/005RHQdLly1fxpl2qo5t0j30ww0k6q9h.jpg)
 
-[foobox 4](http://tieba.baidu.com/p/3238830600)![foobox4](https://elia-is-me.github.io/images/foobox4.jpg)
+[foobox 4](http://tieba.baidu.com/p/3238830600)![foobox4](https://ws1.sinaimg.cn/large/005RHQdLly1fxpl34cwjcj310v0ju45w.jpg)
 
 ## Eiko & Shutter by jensen & dreamXis
 
@@ -43,9 +43,9 @@ Eiko & Shutter 的共同特点就是美观而功能简洁。虽说初看可能�
 
 遗憾的是两位作者很久没有活动，dreamXis 在 themex 的博客也关闭了，目前找不到官方网站去了解和下载这两个皮肤，不过考虑到这两皮肤的流传度，随便搜索应该就能找到的。
 
-Shutter![](https://elia-is-me.github.io/images/ShutterFS.jpg)
+Shutter![](https://ws1.sinaimg.cn/large/005RHQdLly1fxpkziptkpj31an0t578w.jpg)
 
-Eiko![eiko](https://elia-is-me.github.io/images/eiko.jpg)
+Eiko![eiko](https://ws1.sinaimg.cn/large/005RHQdLly1fxpl06vmfaj30qe0gh76y.jpg)
 
 ## [DuiTunes](https://www.deviantart.com/art/DUiTunes-beta3-412700925) by Br3tt
 
@@ -59,7 +59,7 @@ DuiTunes 是 foobar2000 皮肤制作大神 [Br3tt](https://br3tt.deviantart.com/
 
 ## FooMetroX II by nadirP
 
-![fooMetroxII](https://elia-is-me.github.io/images/fooMetroxII.png)
+![fooMetroxII](https://ws1.sinaimg.cn/large/005RHQdLly1fxpl0mtwbtj30w00i0tc2.jpg)
 
 fooMetroX II 是 nadirP 的作品，纵列分栏式的布局很适合大面积显示，素雅的设计也很适合文艺青年，功能上也不复杂（歌词功能有点弱）。
 
@@ -67,7 +67,7 @@ fooMetroX II 是 nadirP 的作品，纵列分栏式的布局很适合大面积�
 
 ## Clean by zhulinxizi
 
-![clean](https://elia-is-me.github.io/images/clean.png)
+![clean](https://ws1.sinaimg.cn/large/005RHQdLly1fxpl1ddsokj30xc0p0kjl.jpg)
 
 zhulinxizi（竹林西子？）设计过两种皮肤，一个是 Clear，另一个就是上图所示的 Clean。都是 Win7 时代的皮肤，顶部信息面板是 Win7 的毛玻璃效果。设计的很漂亮、精致。使用也 OK，功能并不少。
 
