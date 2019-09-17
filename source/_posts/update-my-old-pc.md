@@ -1,6 +1,6 @@
 ---
 title: 老电脑升级！
-date: 2019-09-17 16:34:08
+date: 2019年9月17日
 categories: [随笔]
 tags: [DIY]
 ---
