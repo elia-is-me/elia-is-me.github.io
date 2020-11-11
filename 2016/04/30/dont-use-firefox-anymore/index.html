@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"elia-is-me.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="在弃用了 firefox 一段时间之后，终于发了这篇。或许这是我自己人生一个阶段的结束，谨以此篇纪念我的折腾时光。 最早使用 firefox 是在版本 3.x 的时候，那时刚有了电脑——也就是说在最初接触网络的时候，本人就是通过 firefox 来认识的网络世界了。彼时 ie6 的年岁已经不小，恶名也开始远扬，加上本人的性格的原因，自然是更加推崇更加自由，更加开放的 fx 了。后来有过短暂的一段时">
+<meta property="og:type" content="article">
+<meta property="og:title" content="终于弃用了 Firefox">
+<meta property="og:url" content="https://elia-is-me.github.io/2016/04/30/dont-use-firefox-anymore/index.html">
+<meta property="og:site_name" content="imba&#x2F;Elia">
+<meta property="og:description" content="在弃用了 firefox 一段时间之后，终于发了这篇。或许这是我自己人生一个阶段的结束，谨以此篇纪念我的折腾时光。 最早使用 firefox 是在版本 3.x 的时候，那时刚有了电脑——也就是说在最初接触网络的时候，本人就是通过 firefox 来认识的网络世界了。彼时 ie6 的年岁已经不小，恶名也开始远扬，加上本人的性格的原因，自然是更加推崇更加自由，更加开放的 fx 了。后来有过短暂的一段时">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2016-04-30T12:38:49.000Z">
+<meta property="article:modified_time" content="2020-11-11T16:09:36.440Z">
+<meta property="article:author" content="elia-is-me">
+<meta property="article:tag" content="随笔">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://elia-is-me.github.io/2016/04/30/dont-use-firefox-anymore/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>终于弃用了 Firefox | imba/Elia</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">imba/Elia</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2016/04/30/dont-use-firefox-anymore/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          终于弃用了 Firefox
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2016-04-30 20:38:49" itemprop="dateCreated datePublished" datetime="2016-04-30T20:38:49+08:00">2016-04-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>在弃用了 firefox 一段时间之后，终于发了这篇。或许这是我自己人生一个阶段的结束，谨以此篇纪念我的折腾时光。</p>
+<p>最早使用 firefox 是在版本 3.x 的时候，那时刚有了电脑——也就是说在最初接触网络的时候，本人就是通过 firefox 来认识的网络世界了。彼时 ie6 的年岁已经不小，恶名也开始远扬，加上本人的性格的原因，自然是更加推崇更加自由，更加开放的 fx 了。后来有过短暂的一段时间，本人觉得得尝试下其它的浏览器，于是几乎把所有的浏览器都试了个遍，而 firefox 也确实是表现最好的那个。不是指 firefox 的扩展性，仅仅指浏览器性能体验，firefox 就是最好的，尽管那时号称最快的是 Opera。那时唯一的缺点似乎是启动速度比较慢。</p>
+<a id="more"></a>
+
+<p>然后是 firefox 4.x 的时代，不知道是模仿 Opera 还是别的，出现了火狐橙，标签页也置顶了。这时不管是外观也好，浏览器页面显示空间也好，都让我很满意，而且启动速度也很快了，至少不需要特意去注意的。标签页置顶似乎是参照了 Chrome 的设计。这期间是我瞎折腾的时间（尽管没在折腾火狐），也有几次像今天这样，弃用 firefox 使用其它浏览器，不过最后都不了了之——Opera 号称最快，但在我电脑上它就是不如 firefox 快，直到今天还是不如；chrome 太丑，而且不适应；ie … </p>
+<p>然后就是 firefox 作死时代的开始，开始飙版本号，开始放弃自己的特色在界面上抄袭 chrome（抄谁不好），今年也在火狐吧看到似乎是开发人员之间的撕逼。慢慢的，对 firefox 不再喜欢，直到最近，真正地换掉了它。</p>
+<p>新浏览器是 Opera，嗯，这么多年我每次叛逃都是到 Opera 的阵地上去的。只不过这次 Opera 的核没了，成了 Chrome 的核。还好界面完全没照着 Chrome 搬，依然是 Opera 的特色界面，加上 Chrome 的插件也开始变的丰富起来，Opera 可以搭顺风车。到现在为止，一切还好，Opera 可以担当大任。</p>
+<p>说起来，firefox 一直以可扩（折）展（腾）性闻名于世，然而我从来没折腾过它。相比于那些定制自己界面的或者自己写 js 脚本的玩家，我几乎什么都没干过，也就是装一些现成的插件和脚本，而且很少。所以到了最近的时候，当我发现我用的扩展仅剩下 μBlock 和 lastPass 的时候，我觉得是时候跟 firefox 说再见了。</p>
+<p>Opera 有 μBlock 和 lastPass 插件，所以转移过来完全没问题，而且再加上 adbyby 广告过滤软件的，页面广告问题基本解决。lastPass 据说有过密码泄露问题，不过对我来说算什么呢… 那些账号真的不怎么重要，重要的我也不会用它保存。以前贴吧还算良心的时候，我也用过不少油猴脚本，现在的贴吧… 其它那些稀奇古怪的扩展，有则有，无则无，似乎并没有哪个能让我留在 firefox 里。</p>
+<p>说起来以前 firefox 把我抓住的原因是什么呢？稳定不卡顿的访问网站速度算一个，另一个能想起来的是广告过滤扩展 ADBlock。现在其它浏览器都有广告过滤，Chrome 和 Opera 的扩展也很多，那么 firefox 还有什么其它优点呢？或者它又开发出了什么新的杀手级的功能呢？</p>
+<p>感谢一直以来的陪伴，不过仍然还是再见。</p>
+<p>2016-04-30</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag"># 随笔</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2016/02/28/foobar2000-components-install-tutorial/" rel="prev" title="Foobar2000 组件安装教程">
+      <i class="fa fa-chevron-left"></i> Foobar2000 组件安装教程
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2016/05/04/weizexi-s-death/" rel="next" title="关于魏则西之死与百度及莆田系医院">
+      关于魏则西之死与百度及莆田系医院 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">elia-is-me</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">elia-is-me</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

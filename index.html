@@ -1,1162 +1,874 @@
-<!doctype html>
-
-
-
-
-<html class="theme-next mist">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"elia-is-me.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
 
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
-
-
-
-
-
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="imbalance/Elia">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="imba&#x2F;Elia">
 <meta property="og:url" content="https://elia-is-me.github.io/index.html">
-<meta property="og:site_name" content="imbalance/Elia">
+<meta property="og:site_name" content="imba&#x2F;Elia">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="elia-is-me">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="imbalance/Elia">
+
+<link rel="canonical" href="https://elia-is-me.github.io/">
 
 
-
-<script type="text/javascript" id="hexo.configuration">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"remove"},
-    fancybox: true,
-    motion: false,
-    duoshuo: {
-      userId: 0,
-      author: '博主'
-    }
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
   };
 </script>
 
+  <title>imba/Elia</title>
+  
 
 
 
-  <link rel="canonical" href="https://elia-is-me.github.io/"/>
 
-  <title> imbalance/Elia </title>
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
 
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">imbalance/Elia</span>
+      <h1 class="site-title">imba/Elia</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle"></p>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
 </div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
+
+
 
 <nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
+  <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
         <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
         <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
 
-      
-    </ul>
-  
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
-  
+  </li>
+  </ul>
 </nav>
 
- </div>
+
+
+
+</div>
     </header>
 
-    <main id="main" class="main">
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
       <div class="main-inner">
         <div class="content-wrap">
-          <div id="content" class="content">
+          
+
+          <div class="content index posts-expand">
             
-  <section id="posts" class="posts-expand">
-    
       
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2020/03/04/2020-03-04-covid-19-related/">
 
-  
-  
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2020/03-04-how-to-use-fb-manager-your-music/" itemprop="url">
-                  如何使用 foobar2000 管理你的音乐？
-                </a>
-              
-            
-          </h1>
-        
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/03/04/2020-03-04-covid-19-related/" class="post-title-link" itemprop="url">2020年的新冠疫情</a>
+        </h2>
 
         <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2020-03-04T11:22:38+00:00" content="2020-03-04">
-              2020-03-04
-            </time>
-          </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
+              <time title="创建时间：2020-03-04 18:00:00" itemprop="dateCreated datePublished" datetime="2020-03-04T18:00:00+08:00">2020-03-04</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/foobar2000/" itemprop="url" rel="index">
-                    <span itemprop="name">foobar2000</span>
-                  </a>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
                 </span>
-
-                
-                
-
-              
             </span>
-          
-
-          
-            
-          
 
           
 
-          
-          
-
-          
         </div>
       </header>
+
     
-
-
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+          <p>无论如何我也想不到2020年的开端会是以这样一种形式。从2019年的十二月份开始就开始有传言武汉出现了新的SARS病毒，我长逛的贴吧已经出现了讨论贴——那时起其实疫情就不只是传言而是一种事实了。只是没能想到后来我们国家的防疫措施会这么激烈。2003年的SARS我也经历过，与今年相比还是小巫见大巫。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/03/04/2020-03-04-covid-19-related/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
 
       
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2019/09/17/update-my-old-pc/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/09/17/update-my-old-pc/" class="post-title-link" itemprop="url">老电脑升级！</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-09-17 00:00:00" itemprop="dateCreated datePublished" datetime="2019-09-17T00:00:00+08:00">2019-09-17</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于工作原因，回到了家乡……于是终于有机会摆弄家里的那台老台式 PC 了。实际上由于上了年纪的原因，本人已经非常懒了，不再是那个对任何机械或者电子设备感兴趣，看到什么都想拆的好奇心 GIRL 了。也因此，回家都已经大半年了，才开始把那台 PC 拉出来捣腾。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2019/09/17/update-my-old-pc/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
         
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2018/11/28/how-to-use-fb-manager-your-music/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/11/28/how-to-use-fb-manager-your-music/" class="post-title-link" itemprop="url">如何使用 foobar2000 管理你的音乐？</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2018-11-28 00:00:00" itemprop="dateCreated datePublished" datetime="2018-11-28T00:00:00+08:00">2018-11-28</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/foobar2000/" itemprop="url" rel="index"><span itemprop="name">foobar2000</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
           <h2 id="一、管理起你所有的音乐文件"><a href="#一、管理起你所有的音乐文件" class="headerlink" title="一、管理起你所有的音乐文件"></a>一、管理起你所有的音乐文件</h2><p>foobar2k 可以将你的音乐文件很好地组织起来，然后就可以通过不同的方式浏览你的音乐文件了，比如可以通过 Library &gt; Search 直接搜索，也可以通过 Library &gt; Album List 来查看你有哪些专辑、歌手等等。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2020/03-04-how-to-use-fb-manager-your-music/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2018/11/28/how-to-use-fb-manager-your-music/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
         
       
     </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
+    
+    
+    
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
+  
+  
+  
 
-
-    
       
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2016/10/31/my-favourite-foobar-skins/">
 
-  
-  
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2020/03-04-update-my-old-pc/" itemprop="url">
-                  老电脑升级！
-                </a>
-              
-            
-          </h1>
-        
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2016/10/31/my-favourite-foobar-skins/" class="post-title-link" itemprop="url">那些精美的 foobar2000 皮肤</a>
+        </h2>
 
         <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2020-03-04T11:22:38+00:00" content="2020-03-04">
-              2020-03-04
-            </time>
-          </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
+              <time title="创建时间：2016-10-31 03:15:00" itemprop="dateCreated datePublished" datetime="2016-10-31T03:15:00+08:00">2016-10-31</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
-                  </a>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/foobar2000/" itemprop="url" rel="index"><span itemprop="name">foobar2000</span></a>
                 </span>
-
-                
-                
-
-              
             </span>
-          
-
-          
-            
-          
 
           
 
-          
-          
-
-          
         </div>
       </header>
+
     
-
-
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          
-            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于工作原因，回到了家乡……于是终于有机会摆弄家里的那台老台式 PC 了。实际上由于上了年纪的原因，本人已经非常懒了，不再是那个对任何机械或者电子设备感兴趣，看到什么都想拆的好奇心 GIRL 了。也因此，回家都已经大半年了，才开始把那台 PC 拉出来捣腾。</p>
-<p>这台 PC 是 13 年买的，应该是年初，因为当时配好后过年回家的，那时还在南京……买的目的就是家庭娱乐，给父母以及弟弟使用。只是这世界发展得太快，智能手机早早具备了取代电脑的功能，弟弟出去不在家，这电脑又一度“坏”了，所以实际上它已经被搁置了超过一年没开机了。去年简单拆开一看是散热器断了……直接脱落下来，难怪能卡成那样（我甚至以为是硬盘坏了）。换了散热器后又启动不起来不停重启，就懒得动它，直到今年早些时候我把内存条拔下来重插一下才恢复正常。</p>
-<p>最近天气凉了下来，我也终于有点闲心来搭理这台机器，毕竟它有一台 24 吋的显示器（虽然屏幕素质很差，跟 thinkpad t460p 完全没得比，但大就是大）。一开始其实是打算把显示器跟笔电连接的，还特意买了个 DVI 转 hdmi 的接头。只是插上以后不知道怎么调，屏幕只能跟笔电一摸一样的分辨率…… 只能放弃（——实际上完全可以在显卡驱动里设置分屏与分辨率……）于是终于决定升级一下台式 PC。</p>
-<h2 id="要升级的东西"><a href="#要升级的东西" class="headerlink" title="要升级的东西"></a>要升级的东西</h2><p>首先不爽的就是屏幕不能调角度！这怎么行？这直接导致了我没兴趣用这货；其次就是 WIFI 和 蓝牙；然后是固态，这个好说——手里有两块现成的固态：笔记本上的东芝 Q300 480G 和 13 年买的 Intel 545s 128G. 于是：</p>
-<ul>
-<li>DELL 显示器底座 旋转升降：￥86</li>
-<li>EDUP 5G 双频 PCI-E 无线网卡带蓝牙 4.0：￥109</li>
-<li>东芝 Q300 480G：￥0</li>
-</ul>
-<p>是的，直接把笔电上的固态换到台式机上，还省掉了重装系统和软件的麻烦。不过 Q300 跑分还跑不过 Intel 的 545s 不知怎么回事…… 用起来感觉也慢点。</p>
-<p>之后在玩 Insurgency 2 时发现这货某些方面还比不上原来的 t460p！查了查网上评价，然后咬咬牙升级了 CPU 和 显卡：</p>
-<ul>
-<li>E3 1230 v2：￥350</li>
-<li>七彩虹 gtx 960 2G 显卡：￥462</li>
-</ul>
-<p>另外内存 4g 显然是不够，加一条 8G 1600 ddr3 内存：</p>
-<ul>
-<li>金士顿 8g 1600 ddr3：￥150</li>
-</ul>
-<p>另外，那块 WD 500G 蓝盘也没打算废弃不用，打算用来做数据盘——但没有连接线，好在这个不贵：</p>
-<ul>
-<li>TODO</li>
-</ul>
-<h2 id="插曲"><a href="#插曲" class="headerlink" title="插曲"></a>插曲</h2><p>这台老机子当初在电脑城配的，六年后的今天发现居然没被怎么坑——价格不说，至少配置上没有多缩水。</p>
-<ul>
-<li>华擎 B75M 有点丐</li>
-<li>i3 3220 因为预算本来就紧张</li>
-<li>hd6700 微星 当年性能还是可以的</li>
-<li>4g 内存 也是预算紧张</li>
-<li>500G WD 蓝盘至少不坑（当年还不怎么流行固态，intel 545s 128g 花了我 600 多，当然报销了不然也不舍得……）</li>
-<li>电源安泰克 430W，今天升级也足够了</li>
-</ul>
-<p>直到今天，它还能流畅地运行已然出乎我的预料了。而主要让我不满的，还是这台 AOC 显示器，不能调角度，能忍六年的原因是我几乎没用过它，基本都是我弟用；而且显卡不能自动识别它的分辨率，所以直到最近我才在显卡控制中心发现调分辨率的方法。如果当初能多个 500 块的预算来买台好点的显示器多好……</p>
-<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>还有个小问题是机箱漏电，还挺严重，手像被针刺了一样。所以插拔后面的 USB 接口的时候我得小心翼翼地像摆弄个刺猬一样。今天用坏鼠标上拆下来的线做了个地线，终于好多了，虽然偶尔还是有点麻麻的，但暂时不管它了。</p>
-<p>散热不知道能不能压得住，压不住大概会 90 块买个风扇，虽然不知道需不需要那么好的风扇。</p>
-<p>显示器很不好，所以大概也可能被换掉吧，不过这恐怕要很久以后了。</p>
-<p>还有换下来的 i3 3220 和 hd6700 不知道能不能找到看上它们的人出掉……</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/10-31-my-favourite-foobar-skins/" itemprop="url">
-                  那些精美的 foobar2000 皮肤
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-31T03:15:00+00:00" content="2016-10-31">
-              2016-10-31
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/foobar2000/" itemprop="url" rel="index">
-                    <span itemprop="name">foobar2000</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p><a href="http://foobar2000.org">Foobar2000</a> 是国内广为人知的本地音乐播放软件，由于其简洁的设计与强大的功能而深受喜爱。同时，foobar2000 在借助插件的情况下，可以实现更多更丰富的功能，其中就包括皮肤的定制。</p>
+          <p><a target="_blank" rel="noopener" href="http://foobar2000.org/">Foobar2000</a> 是国内广为人知的本地音乐播放软件，由于其简洁的设计与强大的功能而深受喜爱。同时，foobar2000 在借助插件的情况下，可以实现更多更丰富的功能，其中就包括皮肤的定制。</p>
 <blockquote>
 <p>Foobar2000 的皮肤与其它软件简单的换个颜色、贴图或者布局不同——它是可以真正实现界面交互与功能的美化增强的。</p>
 </blockquote>
 <p>多年来，无数网友制作了无数的皮肤，这里介绍本人认为非常好的皮肤（偏技术）。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/10-31-my-favourite-foobar-skins/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2016/10/31/my-favourite-foobar-skins/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
         
       
     </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
+    
+    
+    
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
+  
+  
+  
 
-
-    
       
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2016/05/13/zhou-s-honours-system/">
 
-  
-  
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05-13-zhou-s-honours-system/" itemprop="url">
-                  一些随笔，关于周爵位
-                </a>
-              
-            
-          </h1>
-        
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2016/05/13/zhou-s-honours-system/" class="post-title-link" itemprop="url">一些随笔，关于周爵位</a>
+        </h2>
 
         <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-13T10:02:18+00:00" content="2016-05-13">
-              2016-05-13
-            </time>
-          </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
+              <time title="创建时间：2016-05-13 10:02:18" itemprop="dateCreated datePublished" datetime="2016-05-13T10:02:18+08:00">2016-05-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
-                  </a>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
                 </span>
-
-                
-                
-
-              
             </span>
-          
-
-          
-            
-          
 
           
 
-          
-          
-
-          
         </div>
       </header>
+
     
-
-
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
           <p>嗯，写点东西来充实下博客。</p>
 <p>追溯起来还要追到小学或初中时，那时候看初中历史书，有提到过『共和执政』。这事情还是挺有名的，无论古今。『防民之口，甚于防川』即出于此，『共和』这个词也来源于此。那时教科书上说这『共和执政』有两种说法，一种是周公旦与召公奭（shì）两人联合执政，另一种就是共伯和执政了。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05-13-zhou-s-honours-system/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2016/05/13/zhou-s-honours-system/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
         
       
     </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
+    
+    
+    
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
+  
+  
+  
 
-
-    
       
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2016/05/05/foobar2000-resources/">
 
-  
-  
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05-05-foobar2000-resources/" itemprop="url">
-                  关于 foobar2000 的在线资源
-                </a>
-              
-            
-          </h1>
-        
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2016/05/05/foobar2000-resources/" class="post-title-link" itemprop="url">关于 foobar2000 的在线资源</a>
+        </h2>
 
         <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-05T14:12:46+00:00" content="2016-05-05">
-              2016-05-05
-            </time>
-          </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
+              <time title="创建时间：2016-05-05 14:12:46" itemprop="dateCreated datePublished" datetime="2016-05-05T14:12:46+08:00">2016-05-05</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/foobar2000/" itemprop="url" rel="index">
-                    <span itemprop="name">foobar2000</span>
-                  </a>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/foobar2000/" itemprop="url" rel="index"><span itemprop="name">foobar2000</span></a>
                 </span>
-
-                
-                
-
-              
             </span>
-          
-
-          
-            
-          
 
           
 
-          
-          
-
-          
         </div>
       </header>
+
     
-
-
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          <p>foobar2000 用户虽多，自定义自由度虽高，但实际上它的网上资源并不算太多。本人虽孤陋寡闻，但仍然将自己所知道的收集起来，各位有兴趣可以自己去看。如果你知道更多的地方，可以<a href="https://github.com/elia-is-me/elia-is-me.github.io/issues">这里</a>开 issue （需要 GitHub 账号）。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05-05-foobar2000-resources/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          <p>foobar2000 用户虽多，自定义自由度虽高，但实际上它的网上资源并不算太多。本人虽孤陋寡闻，但仍然将自己所知道的收集起来，各位有兴趣可以自己去看。如果你知道更多的地方，可以<a target="_blank" rel="noopener" href="https://github.com/elia-is-me/elia-is-me.github.io/issues">这里</a>开 issue （需要 GitHub 账号）。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2016/05/05/foobar2000-resources/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
         
       
     </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
+    
+    
+    
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
+  
+  
+  
 
-
-    
       
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2016/05/04/weizexi-s-death/">
 
-  
-  
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05-04-weizexi-s-death/" itemprop="url">
-                  关于魏则西之死与百度及莆田系医院
-                </a>
-              
-            
-          </h1>
-        
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2016/05/04/weizexi-s-death/" class="post-title-link" itemprop="url">关于魏则西之死与百度及莆田系医院</a>
+        </h2>
 
         <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-04T19:01:41+00:00" content="2016-05-04">
-              2016-05-04
-            </time>
-          </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
+              <time title="创建时间：2016-05-04 19:01:41" itemprop="dateCreated datePublished" datetime="2016-05-04T19:01:41+08:00">2016-05-04</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
-                  </a>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
                 </span>
-
-                
-                
-
-              
             </span>
-          
-
-          
-            
-          
 
           
 
-          
-          
-
-          
         </div>
       </header>
+
     
-
-
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
           <p>今天想写点关于魏则西的东西。</p>
 <p>关于魏则西的事情：</p>
 <blockquote>
 <p>魏则西，男，二十一岁，生前就读于西安电子科技大学，计算机专业学生，因身患滑膜肉瘤去世。</p>
+</blockquote>
+<blockquote>
 <p>魏得的病目前无有效治疗手段，之前辗转各医院得到的都是坏消息。后来他在百度搜索，第一条结果是北京总队第二医院所谓的『生物免疫疗法』，到医院后得到的回复是『病很重，能治好，得花钱』。然而结果是花了二十万但病情却严重恶化。后来在知乎上他认识了不少朋友，有帮忙在 Google 上查询，并联系美国很多家医院，才明白所谓『生物免疫疗法』在国外因为效率太低，在临床阶段就被淘汰了。</p>
+</blockquote>
+<blockquote>
 <p>2016 年 4 月 12 日，魏则西去世。</p>
 </blockquote>
 <p>魏则西是知乎的网友，他的去世在知乎上引起了很大的反响，因为这次扯到了百度的竞价排名与莆田系医院。魏得了难以治愈的疾病，固然是他的不幸，然而这份不幸被人拿来谋利，并最终造成他耽误了治疗并很快去世，这实在是让人唏嘘。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05-04-weizexi-s-death/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2016/05/04/weizexi-s-death/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
         
       
     </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
+    
+    
+    
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
+  
+  
+  
 
-
-    
       
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2016/04/30/dont-use-firefox-anymore/">
 
-  
-  
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/04-30-dont-use-firefox-anymore/" itemprop="url">
-                  终于弃用了 Firefox
-                </a>
-              
-            
-          </h1>
-        
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2016/04/30/dont-use-firefox-anymore/" class="post-title-link" itemprop="url">终于弃用了 Firefox</a>
+        </h2>
 
         <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-30T20:38:49+00:00" content="2016-04-30">
-              2016-04-30
-            </time>
-          </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
+              <time title="创建时间：2016-04-30 20:38:49" itemprop="dateCreated datePublished" datetime="2016-04-30T20:38:49+08:00">2016-04-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
-                  </a>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
                 </span>
-
-                
-                
-
-              
             </span>
-          
-
-          
-            
-          
 
           
 
-          
-          
-
-          
         </div>
       </header>
+
     
-
-
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
           <p>在弃用了 firefox 一段时间之后，终于发了这篇。或许这是我自己人生一个阶段的结束，谨以此篇纪念我的折腾时光。</p>
 <p>最早使用 firefox 是在版本 3.x 的时候，那时刚有了电脑——也就是说在最初接触网络的时候，本人就是通过 firefox 来认识的网络世界了。彼时 ie6 的年岁已经不小，恶名也开始远扬，加上本人的性格的原因，自然是更加推崇更加自由，更加开放的 fx 了。后来有过短暂的一段时间，本人觉得得尝试下其它的浏览器，于是几乎把所有的浏览器都试了个遍，而 firefox 也确实是表现最好的那个。不是指 firefox 的扩展性，仅仅指浏览器性能体验，firefox 就是最好的，尽管那时号称最快的是 Opera。那时唯一的缺点似乎是启动速度比较慢。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/04-30-dont-use-firefox-anymore/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2016/04/30/dont-use-firefox-anymore/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
         
       
     </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
+    
+    
+    
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
+  
+  
+  
 
-
-    
       
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2016/02/28/foobar2000-components-install-tutorial/">
 
-  
-  
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/02-28-foobar2000-components-install-tutorial/" itemprop="url">
-                  Foobar2000 组件安装教程
-                </a>
-              
-            
-          </h1>
-        
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2016/02/28/foobar2000-components-install-tutorial/" class="post-title-link" itemprop="url">Foobar2000 组件安装教程</a>
+        </h2>
 
         <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-02-28T00:00:00+00:00" content="2016-02-28">
-              2016-02-28
-            </time>
-          </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
+              <time title="创建时间：2016-02-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-02-28T00:00:00+08:00">2016-02-28</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/foobar2000/" itemprop="url" rel="index">
-                    <span itemprop="name">foobar2000</span>
-                  </a>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/foobar2000/" itemprop="url" rel="index"><span itemprop="name">foobar2000</span></a>
                 </span>
-
-                
-                
-
-              
             </span>
-          
-
-          
-            
-          
 
           
 
-          
-          
-
-          
         </div>
       </header>
+
     
-
-
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
           <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>foobar2000 由于其软件架构特点以及开放的姿态，使得第三方很容易开发组件（component）来拓展它的功能。由于在官网下载的默认安装文件只带了少量几个默认的组件，满足不了使用的需求，例如：默认不带 ape，tta，tak 等音频文件格式的解码器，很多无损压缩格式音乐没法播放。所以自己下载安装组件是必备的基本技能。</p>
 <blockquote>
 <p>foobar2000 的中文汉化版（Asion 汉化）为了方便使用，集成了无损压缩文件解码器以及一些其它有用的插件，安装时选上即可，不喜欢折腾的建议使用汉化版。</p>
@@ -1166,218 +878,252 @@
 <li>官方组件： 英文版安装包自带，安装时可选择；</li>
 <li>第三方组件：非官方自带的组件</li>
 </ul>
-<p>除了 <code>foo_input_std.dll</code> 和 <code>foo_ui_std.dll</code> 这两个组件是必须的外，其它的所有组件都<strong>非必需</strong>的，可以随需要增删。第三方组件可以去<a href="http://www.foobar2000.org/components">官网</a>、<a href="http://www.hydrogenaud.io/forums/index.php?act=SF&amp;s=&amp;f=28">官方论坛</a>或者<a href="http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components">官方 wiki</a> 去找，也可以去贴吧等地逛逛。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/02-28-foobar2000-components-install-tutorial/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+<p>除了 <code>foo_input_std.dll</code> 和 <code>foo_ui_std.dll</code> 这两个组件是必须的外，其它的所有组件都<strong>非必需</strong>的，可以随需要增删。第三方组件可以去<a target="_blank" rel="noopener" href="http://www.foobar2000.org/components">官网</a>、<a target="_blank" rel="noopener" href="http://www.hydrogenaud.io/forums/index.php?act=SF&s=&f=28">官方论坛</a>或者<a target="_blank" rel="noopener" href="http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components">官方 wiki</a> 去找，也可以去贴吧等地逛逛。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2016/02/28/foobar2000-components-install-tutorial/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
         
       
     </div>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
+    
+    
+    
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
+  
+  
+  
 
-
-    
       
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://elia-is-me.github.io/2016/02/18/an-introduction-to-eslyric/">
 
-  
-  
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="elia-is-me">
+      <meta itemprop="description" content="">
+    </span>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="imba/Elia">
+    </span>
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/02-18-an-introduction-to-eslyric/" itemprop="url">
-                  ESLyric 介绍与使用
-                </a>
-              
-            
-          </h1>
-        
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2016/02/18/an-introduction-to-eslyric/" class="post-title-link" itemprop="url">ESLyric 介绍与使用</a>
+        </h2>
 
         <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-02-18T01:00:00+00:00" content="2016-02-18">
-              2016-02-18
-            </time>
-          </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
+              <time title="创建时间：2016-02-18 01:00:00" itemprop="dateCreated datePublished" datetime="2016-02-18T01:00:00+08:00">2016-02-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 00:09:36" itemprop="dateModified" datetime="2020-11-12T00:09:36+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/foobar2000/" itemprop="url" rel="index">
-                    <span itemprop="name">foobar2000</span>
-                  </a>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/foobar2000/" itemprop="url" rel="index"><span itemprop="name">foobar2000</span></a>
                 </span>
-
-                
-                
-
-              
             </span>
-          
-
-          
-            
-          
 
           
 
-          
-          
-
-          
         </div>
       </header>
+
     
-
-
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
           <p>ESLyric 是由 <strong>ttsping</strong> 写的一个 foobar2000 歌词组件。大概是 2014 年第一次发布的（吧？）。此插件与<a href="">歌词秀3</a>类似，可以内嵌如 foobar2000 的界面作为显示歌词之用，另外还提供了桌面歌词功能，其它种种功能后面再说。</p>
 <h2 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h2><p>都知道 foobar2000 是个不错的播放器，然而它没有官方的歌词显示，于是各路大神纷纷出马，写了不少的歌词插件，国外最新比较流行的是歌词秀3（也是老插件了）。对国内用户来说，歌词插件不仅是能显示歌词，还得能自己下载歌词，所以得有国内的网站歌词源。歌词秀3显然不可能默认带国内源。</p>
 <p>于是 ttsping 出马，写了个歌词秀3的扩展插件（什么名字忘了），主要就是添加国内歌词源，顺便还加上了桌面歌词功能。这个插件流传了挺长一段时间。</p>
 <p>后来 ttsping 蛰伏一段时间后，在带来 WSH Panel Mod Plus 的同时，又将歌词秀3扩展插件的所有功能独立出歌词秀3，不再作为它的附属而是平等地位的一个插件，也就是 foo_eslyric.dll。这个插件 2013 年第一次在贴吧发布（一晃眼已经是 2016 年，时间过得真快）。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/02-18-an-introduction-to-eslyric/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2016/02/18/an-introduction-to-eslyric/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
         
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
 
     
-  </section>
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
 
   
+
 
 
           </div>
           
 
-
-          
-
-        </div>
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy;  2016 - 
-  <span itemprop="copyrightYear">2020</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Elia</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
-
-        
-
-        
-      </div>
-    </footer>
-
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </div>
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
   }
 </script>
 
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">elia-is-me</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">elia-is-me</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  </div>
+
+        
 
 
 
 
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
 
 
 
@@ -1386,59 +1132,17 @@
 
 
 
-  
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
-
-
-
-  
-
-
-
-  
 
 
 
 
-  
-  
 
-  
+
+
+
+
+
+
 
   
 
